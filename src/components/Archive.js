@@ -14,7 +14,7 @@ function Archive() {
   return (
     <aside>
       <h2>Post archive</h2>
-      <button onClick={() => setShowArchive((s) => !s)}>
+      <button onClick={() => setShowArchive((show) => !show)}>
         {showArchive ? "Hide archive posts" : "Show archive posts"}
       </button>
 
